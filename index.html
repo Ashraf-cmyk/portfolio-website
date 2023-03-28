@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Ashraf Airad</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/884fbc1ca2.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- -----------Home---------- -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home/About</a></li>
+            <!--<li><a href="#about">About</a></li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Graphic Designer</p>
+          <h1><span>Ashraf</span> Airad.</h1>
+        </div>
+        <div class="about-col-2">
+          <p>
+            <br />Hallo mijn naam is Ashraf Airad geboren in Roosendaal
+            9/2/1989.<br />
+            Ik heb mijn Diploma behaald op het Grafisch Lyceum in Rotterdam.<br />
+            Ik heb als specialisatie Visualising.
+          </p>
+          <br />
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Graphic Design</span><br />Designing commercial packaging
+              </li>
+              <li>
+                <span>Visual illustration</span><br />Draw visual illustrations
+              </li>
+              <li><span>Web design</span><br />Design Web/app interface</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023</span><br />Bravis</li>
+              <li><span>2018</span><br />Elster Instromet</li>
+              <li><span>2013</span><br />Breda Dochters</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br />WincAcademy Front End developing.</li>
+              <li><span>2015/2018</span><br />PABO basisonderwijs Avans.</li>
+              <li><span>2011</span><br />Grafish Lyceum Rotterdam.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------About---------- 
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">Wie ben ik?</h2>
+            <p>
+              <br />"Hallo mijn naam is Ashraf Airad geboren in Roosendaal
+              9/2/1989.<br />
+              Ik heb mijn Diploma behaald op het Grafisch Lyceum in
+              Rotterdam.<br />
+              Ik heb als specialisatie Visualising."
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Graphic Design</span><br />Designing commercial
+                  packaging
+                </li>
+                <li>
+                  <span>Visual illustration</span><br />Draw visual
+                  illustrations
+                </li>
+                <li><span>Web design</span><br />Design Web/app interface</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023</span><br />Bravis</li>
+                <li><span>2018</span><br />Elster Instromet</li>
+                <li><span>2013</span><br />Breda Dochters</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />WincAcademy Front End developing.
+                </li>
+                <li><span>2015/2018</span><br />PABO basisonderwijs Avans.</li>
+                <li><span>2011</span><br />Grafish Lyceum Rotterdam.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- -----------Portfolio---------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+
+        <div class="work-list">
+          <!--<div class="work">
+            
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h4>Graphic Design</h4>
+              <p>
+                Download this app from the good play store to link to talented
+                people around the world!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h4>Illustrations</h4>
+              <p>
+                Download this app from the good play store to link to talented
+                people around the world!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h4>Web Design</h4>
+              <p>
+                Download this app from the good play store to link to talented
+                people around the world!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          -->
+
+          <div><img src="images/work-1.png" /></div>
+          <div class="vertical"><img src="images/retro.jpg" /></div>
+          <div class="horizontal"><img src="images/flowers.jpg" /></div>
+          <div><img src="images/work-3.png" /></div>
+          <div><img src="images/work-2.png" /></div>
+          <div class="big"><img src="images/Vatria.png" /></div>
+          <div><img src="images/flowers.jpg" /></div>
+          <div class="vertical"><img src="images/Giovanna a4.jpg" /></div>
+          <div><img src="images/kaft Bravis.jpg" /></div>
+          <div class="horizontal"><img src="images/Tajin.jpg" /></div>
+          <div><img src="images/spagetti.jpg" /></div>
+          <div class="big"><img src="images/makaak.jpeg" /></div>
+          <div><img src="images/gentleman.jpg" /></div>
+          <div class="horizontal"><img src="images/dunkirk.jpg" /></div>
+          <div><img src="images/flowers.jpg" /></div>
+          <div class="big"><img src="images/auto.jpg" /></div>
+          <div><img src="images/Brave.jpg" /></div>
+          <div class="vertical"><img src="images/spagetti.jpg" /></div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact"></div>
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+          <div class="social-icons">
+            <!--<a href="https://facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>-->
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <!-- <a href="" download class="btn btn2">Download CV</a> -->
+        </div>
+
+        <div class="contact-right">
+          <form
+            action="https://formsubmit.co/airadashraf@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="Email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="Message"
+              row="6"
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="confirm-message">Dank u wel, uw bericht is verzonden.</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Ashraf Grafisch Vormgever.</p>
+    </div>
+  </body>
+</html>
