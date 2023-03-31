@@ -218,15 +218,14 @@ nav ul li a:hover::after {
   background-size: 28px 28px;
   grid-area: about2;
   width: 100%;
-  height: 80%;
-  margin-top: 10%;
-  border-radius: 20px;
+  height: 60%;
 }
 
 /*--------------portfolio---------------*/
 
 .work-list {
   display: grid;
+  grid-gap: 10px;
   margin-top: 50px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: auto;
@@ -600,4 +599,24 @@ nav .fa-sharp {
     url("./fonts/rubik-variablefont_wght-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@media (max-width: 801px) {
+  .container1 {
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    padding-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "   headertext   empty    about2 "
+      "   headertext   empty    about2 "
+      "   headertext   empty    about2 "
+      "   about        empty    about1 ";
+  }
+  .sidetextleft1 {
+    font-size: 0;
+  }
 }
