@@ -237,7 +237,9 @@ nav ul li a:hover::after {
   height: 100%;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 10px;
   transition: all 0.5s ease-in-out;
+  border: solid white 5px;
 }
 
 .work-list .img1 {
@@ -246,7 +248,7 @@ nav ul li a:hover::after {
 }
 
 .work-list img:hover {
-  transform: scale(1.02);
+  opacity: 0.5;
 }
 
 .horizontal {
